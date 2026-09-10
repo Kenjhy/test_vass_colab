@@ -1,0 +1,301 @@
+cliente_id,nombre,apellido,email,telefono,ciudad,pais,segmento,fecha_registro,fecha_consentimiento,activo,data_owner,clasificacion_dato
+CLI-00001,Javier,Navarro,mariacalderon@example.org,301 674 83 18,Suesca,Colombia,B2C,2024-10-16,2024-10-16,False,marketing@retailtech.co,confidencial
+CLI-00002,María,Alzate,ayaladiana@example.org,573035594614,Providencia,Colombia,B2C,2024-08-27,2024-08-30,True,crm@retailtech.co,confidencial
+CLI-00003,Cristian,Quiroga,,305 783 27 75,Filadelfia,Chile,B2B,2023-08-14,2023-08-17,True,marketing@retailtech.co,confidencial
+CLI-00004,Martha,Martínez,laura84@example.net,573014316825,Marsella,Colombia,B2C,2023-08-09,2023-08-11,True,crm@retailtech.co,confidencial
+CLI-00005,Fabiola,Betancur,camiloguerrero@example.org,57 301 465 37 01,Puerto Santander,Colombia,Inactivo,2024-07-03,2024-07-03,False,marketing@retailtech.co,confidencial
+CLI-00006,Diana,Marín,kcorredor@example.org,N/A,Nariño,Colombia,B2C,2024-12-22,2024-12-22,True,crm@retailtech.co,confidencial
+CLI-00007,Sandra,Pérez,aruiz@example.net,+57 607 604 62 41,Chivolo,Colombia,Premium,2024-04-09,2024-04-14,True,marketing@retailtech.co,confidencial
+CLI-00008,María,Amaya,carlos35@example.org,802 08 42,Concepción,México,B2C,2024-09-15,2024-09-20,True,marketing@retailtech.co,confidencial
+CLI-00009,Eliana,Contreras,zcruz@example.com,N/A,Tenerife,Chile,Premium,2024-12-02,2024-12-04,True,marketing@retailtech.co,confidencial
+CLI-00010,Flor,Mendoza,sanchezmonica@example.org,576032227888,Istmina,México,B2C,2024-08-03,2024-08-08,True,marketing@retailtech.co,confidencial
+CLI-00011,Antonio,Pérez,monica80@example.com,308 026 26 11,Yarumal,Colombia,B2C,2024-07-28,2024-08-01,False,crm@retailtech.co,confidencial
+CLI-00012,Eugenia,Beltrán,tcorrea@example.net,+573044065240,Villapinzón,Colombia,Premium,2023-04-04,2023-04-04,True,crm@retailtech.co,confidencial
+CLI-00013,José,García,,(+57) 318 742 52 92,Tibasosa,Perú,Inactivo,2024-06-25,2024-06-27,True,crm@retailtech.co,confidencial
+CLI-00014,Mario,Sierra,rnaranjo@example.net,01 8008 203 237,Caldas,Colombia,B2C,2024-10-18,2024-10-20,True,marketing@retailtech.co,confidencial
+CLI-00015,David,González,carlosorozco@example.org,573187919468,Tenerife,Colombia,Premium,2024-06-03,2024-06-03,True,marketing@retailtech.co,confidencial
+CLI-00016,David,Escobar,evaacosta@example.org,(+57)3277495146,San Joaquín,Colombia,B2C,2024-09-05,2024-09-07,True,marketing@retailtech.co,confidencial
+CLI-00017,Estiven,Pérez,sanchezines@example.com,573281634617,San Rafael,Colombia,B2C,2024-08-03,2024-08-03,True,crm@retailtech.co,confidencial
+CLI-00018,Fernanda,Ramos,wvelasquez@example.com,57 606 394 60 96,Guatavita,Perú,B2C,2024-07-16,2024-07-17,True,marketing@retailtech.co,confidencial
+CLI-00019,Henry,Angulo,enriquerivera@example.net,57 318 496 59 12,Bahía Solano,México,B2C,2024-12-31,2025-01-02,True,marketing@retailtech.co,confidencial
+CLI-00020,Xiomara,Duque,alejandra99@example.com,N/A,Chaguaní,Colombia,B2B,2023-12-13,2023-12-13,True,marketing@retailtech.co,confidencial
+CLI-00021,Eliana,Acosta,arroyoleonardo@example.com,6061953163,Bojacá,Colombia,B2B,2023-12-05,2023-12-05,False,crm@retailtech.co,confidencial
+CLI-00022,Brayan,Cárdenas,ramirezines@example.com,573137163568,Pueblorrico,Colombia,Premium,2023-09-06,2023-09-09,True,marketing@retailtech.co,confidencial
+CLI-00023,Rosalba,Monsalve,oswaldoduarte@example.com,573277239716,Contratación,Colombia,Inactivo,2024-11-20,2024-11-25,True,marketing@retailtech.co,confidencial
+CLI-00024,Ana,Contreras,carlosarias@example.net,6065461434,Chaparral,Colombia,B2C,2024-07-03,2024-07-06,True,marketing@retailtech.co,confidencial
+CLI-00025,Alex,Ortiz,paradajulia@example.com,(+57) 608 910 41 23,Barbosa,Perú,Inactivo,2023-02-21,2023-02-26,True,crm@retailtech.co,confidencial
+CLI-00026,Mauricio,Rico,xcastro@example.org,N/A,Guapi,Argentina,Premium,2024-05-07,2024-05-08,False,crm@retailtech.co,confidencial
+CLI-00027,Esteban,Quintero,qdiaz@example.com,310 262 90 56,El Tarra,México,B2B,2023-10-20,2023-10-23,True,marketing@retailtech.co,confidencial
+CLI-00028,John,Hernández,hector52@example.org,N/A,Quibdó,Colombia,Premium,2023-03-01,2023-03-05,False,marketing@retailtech.co,confidencial
+CLI-00029,María,Cardona,morenofrancisco@example.org,(+57) 325 797 73 27,San Miguel de Sema,Colombia,B2C,2023-02-28,2023-03-04,True,marketing@retailtech.co,confidencial
+CLI-00030,Eliana,García,arenasjorge@example.org,+57 608 311 74 37,Barbosa,Colombia,B2C,2024-08-15,2024-08-19,True,crm@retailtech.co,confidencial
+CLI-00031,Marco,Gómez,salamancaliliana@example.org,(+57)6045368038,Versalles,México,B2C,2023-09-02,2023-09-04,True,crm@retailtech.co,confidencial
+CLI-00032,Orlando,Rodríguez,jhonmosquera@example.com,+576095930920,Orocué,Colombia,Inactivo,2024-09-28,2024-10-02,False,marketing@retailtech.co,confidencial
+CLI-00033,Graciela,López,elena81@example.org,4073416,Medio San Juan,Perú,B2C,2024-01-14,2024-01-16,True,marketing@retailtech.co,confidencial
+CLI-00034,María,Jiménez,mercedes88@example.org,+57 309 196 88 61,Sora,México,B2C,2024-11-14,2024-11-18,True,marketing@retailtech.co,confidencial
+CLI-00035,Luz,Ruiz,jmaldonado@example.org,+57 318 690 24 99,Aguadas,México,B2B,2023-10-06,2023-10-08,True,marketing@retailtech.co,confidencial
+CLI-00036,Pablo,Ortiz,,573298431667,Agua de Dios,Colombia,B2C,2023-04-05,2023-04-10,True,crm@retailtech.co,confidencial
+CLI-00037,Consuelo,López,gladysortiz@example.com,+573265418774,Carmen de Apicalá,Colombia,B2C,2024-07-18,2024-07-23,True,crm@retailtech.co,confidencial
+CLI-00038,Isabel,Agudelo,amparo55@example.org,(+57) 329 389 15 69,San Onofre,Colombia,B2C,2024-08-19,2024-08-23,False,crm@retailtech.co,confidencial
+CLI-00039,Juan,Velásquez,riveracesar@example.org,57 327 738 46 45,Nuquí,Colombia,B2C,2023-08-04,2023-08-09,True,marketing@retailtech.co,confidencial
+CLI-00040,Natalia,Cárdenas,pmesa@example.org,N/A,Heliconia,Chile,Inactivo,2023-08-31,2023-09-01,True,crm@retailtech.co,confidencial
+CLI-00041,José,Bustos,maria80@example.com,317 252 09 22,Une,Colombia,Premium,2024-11-16,2024-11-21,False,marketing@retailtech.co,confidencial
+CLI-00042,Tatiana,Caro,castroluis@example.org,57 317 479 33 65,Sucre,Chile,B2C,2023-07-24,2023-07-27,True,crm@retailtech.co,confidencial
+CLI-00043,Anderson,Hernández,ramirezpatricia@example.net,57 303 049 69 74,Santiago,Colombia,B2C,2023-03-13,2023-03-15,True,crm@retailtech.co,confidencial
+CLI-00044,Alejandro,Camacho,mesaheidy@example.org,3072071785,Miraflores,Colombia,Inactivo,2023-07-02,2023-07-06,True,marketing@retailtech.co,confidencial
+CLI-00045,Vanesa,Silva,karen53@example.org,614 06 19,Soledad,Colombia,B2C,2024-01-30,2024-02-03,True,marketing@retailtech.co,confidencial
+CLI-00046,Luz,Gómez,bastidasyuliana@example.net,57 311 191 46 25,Purísima de la Concepción,México,B2C,2024-01-08,2024-01-11,True,crm@retailtech.co,confidencial
+CLI-00047,Olga,López,zmeza@example.com,406 08 85,Suaita,Colombia,B2B,2024-06-03,2024-06-05,True,crm@retailtech.co,confidencial
+CLI-00048,Andrés,Escobar,felixgallego@example.org,+57 607 768 05 82,,México,Inactivo,2024-11-24,2024-11-29,True,crm@retailtech.co,confidencial
+CLI-00049,James,Calderón,claudia46@example.org,+57 305 447 95 58,Facatativá,Colombia,B2B,2024-08-16,2024-08-20,False,marketing@retailtech.co,confidencial
+CLI-00050,Clara,Mesa,rosabarrera@example.com,6067987807,Talaigua Nuevo,México,B2C,2024-11-05,2024-11-05,True,crm@retailtech.co,confidencial
+CLI-00051,Néstor,Orozco,alfonsovergara@example.com,+576025973873,Morichal,Colombia,B2C,2023-08-19,2023-08-20,True,marketing@retailtech.co,confidencial
+CLI-00052,Omar,Arango,perezelizabeth@example.com,N/A,Macaravita,Colombia,B2C,2024-12-14,2024-12-17,True,marketing@retailtech.co,confidencial
+CLI-00053,Jairo,Moreno,moralesclaudia@example.com,N/A,Mercaderes,Argentina,B2C,2024-03-11,2024-03-12,True,crm@retailtech.co,confidencial
+CLI-00054,Valentina,Pedraza,lucia56@example.com,+57 329 915 47 68,Fusagasugá,Ecuador,B2B,2023-05-17,2023-05-20,True,crm@retailtech.co,confidencial
+CLI-00055,Julio,Márquez,jhoncastro@example.org,+57 323 608 30 03,San Sebastián de Buenavista,México,Premium,2024-07-15,2024-07-18,True,crm@retailtech.co,confidencial
+CLI-00056,Héctor,Carvajal,carolinamolina@example.org,(+57) 304 502 56 90,Melgar,Colombia,B2C,2024-10-03,2024-10-04,True,marketing@retailtech.co,confidencial
+CLI-00057,Alejandro,Castro,alba70@example.net,106 17 43,Colón,Colombia,B2C,2023-06-04,2023-06-05,True,marketing@retailtech.co,confidencial
+CLI-00058,Carlos,López,cecilia28@example.org,N/A,Boyacá,Chile,B2C,2023-07-31,2023-08-03,True,crm@retailtech.co,confidencial
+CLI-00059,Patricia,Espitia,marthaparra@example.net,57 309 679 84 41,Tenerife,Colombia,B2C,2023-01-07,2023-01-09,True,marketing@retailtech.co,confidencial
+CLI-00060,Fredy,Martínez,enrique25@example.net,+57 608 173 46 31,La Ceja,Colombia,B2C,2024-05-14,2024-05-15,True,crm@retailtech.co,confidencial
+CLI-00061,Elsy,Reyes,ugonzalez@example.net,(+57) 305 006 04 51,Socha,Argentina,B2B,2023-05-11,2023-05-15,True,crm@retailtech.co,confidencial
+CLI-00062,Augusto,Vásquez,riveralucero@example.com,57 303 527 70 27,Arauca,Colombia,B2C,2023-07-06,2023-07-06,True,crm@retailtech.co,confidencial
+CLI-00063,Antonio,Flórez,rinconmaria@example.org,+57 312 742 86 71,Titiribí,México,B2C,2023-09-16,2023-09-16,True,marketing@retailtech.co,confidencial
+CLI-00064,Vanessa,Flórez,zmeneses@example.org,57 602 381 56 05,Recetor,Colombia,B2C,2023-02-01,2023-02-02,True,marketing@retailtech.co,confidencial
+CLI-00065,Adrián,Escobar,alexander89@example.net,3067043232,Arboleda,Colombia,B2C,2024-04-21,2024-04-26,True,marketing@retailtech.co,confidencial
+CLI-00066,Marcela,Arenas,wilder73@example.net,573214018109,Calima,Argentina,B2B,2023-11-15,2023-11-15,False,marketing@retailtech.co,confidencial
+CLI-00067,Yesid,Agudelo,gbermudez@example.org,576039522874,Montenegro,México,B2B,2023-03-19,2023-03-23,True,marketing@retailtech.co,confidencial
+CLI-00068,Brayan,Barbosa,zapataluz@example.com,310 542 96 87,Roberto Payán,Colombia,B2C,2024-08-02,2024-08-02,True,crm@retailtech.co,confidencial
+CLI-00069,Fredy,Ramírez,yarias@example.org,6032470275,La Uvita,México,Inactivo,2023-04-19,2023-04-22,True,crm@retailtech.co,confidencial
+CLI-00070,Andrés,Jaramillo,elvira49@example.com,573033346953,Mallama,Colombia,Premium,2024-09-22,2024-09-26,True,marketing@retailtech.co,confidencial
+CLI-00071,Carlos,Tovar,mrodriguez@example.com,6074737398,,Colombia,B2C,2023-10-13,2023-10-16,False,marketing@retailtech.co,confidencial
+CLI-00072,Carlos,Arenas,perezangelica@example.com,57 326 572 22 10,Sutatausa,Colombia,B2C,2024-05-14,2024-05-15,True,marketing@retailtech.co,confidencial
+CLI-00073,Antonio,Barreto,npatino@example.com,606 543 21 74,Coveñas,Colombia,Premium,2023-03-29,2023-03-30,True,marketing@retailtech.co,confidencial
+CLI-00074,José,Mendoza,mariaromero@example.org,57 608 264 49 40,Puerto Concordia,México,B2C,2023-04-06,2023-04-08,True,crm@retailtech.co,confidencial
+CLI-00075,Martha,Oviedo,valentinapineda@example.com,018006862757,Cacahual,Colombia,B2C,2024-07-17,2024-07-19,True,marketing@retailtech.co,confidencial
+CLI-00076,Yésica,González,agudelosandra@example.org,306 000 30 05,Cumaribo,Colombia,Premium,2023-07-16,2023-07-17,False,marketing@retailtech.co,confidencial
+CLI-00077,Sandra,Castro,lunasebastian@example.net,+573147508038,Titiribí,Colombia,B2C,2023-10-31,2023-11-01,True,crm@retailtech.co,confidencial
+CLI-00078,María,Mantilla,dariza@example.org,N/A,Olaya Herrera,Chile,B2B,2024-12-15,2024-12-16,True,crm@retailtech.co,confidencial
+CLI-00079,Manuela,Parada,kgarcia@example.org,N/A,San José de Uré,Perú,B2C,2023-07-08,2023-07-08,True,marketing@retailtech.co,confidencial
+CLI-00080,Dario,Paz,ernestoacosta@example.net,(+57)3261166703,La Dorada,Argentina,Premium,2023-06-05,2023-06-06,True,marketing@retailtech.co,confidencial
+CLI-00081,Hilda,Castillo,fernando91@example.com,303 182 48 69,Guaitarilla,Colombia,B2C,2024-06-19,2024-06-22,True,marketing@retailtech.co,confidencial
+CLI-00082,Jaime,Morales,alfonso11@example.net,+573065518192,Guaduas,México,B2C,2023-08-01,2023-08-06,True,crm@retailtech.co,confidencial
+CLI-00083,Augusto,Leal,adriana93@example.org,3197392478,Puerto Escondido,Colombia,B2C,2024-12-06,2024-12-10,True,marketing@retailtech.co,confidencial
+CLI-00084,María,Gil,montenegropiedad@example.org,6017603955,Quibdó,Chile,B2B,2023-09-28,2023-10-03,True,crm@retailtech.co,confidencial
+CLI-00085,Luz,Sánchez,adrianacuellar@example.org,+57 601 426 19 99,San Estanislao,Chile,B2C,2023-05-26,2023-05-26,True,crm@retailtech.co,confidencial
+CLI-00086,Elizabeth,Molano,carlos76@example.org,+573136049859,La Macarena,Argentina,B2B,2024-12-06,2024-12-08,True,crm@retailtech.co,confidencial
+CLI-00087,Juan,Díaz,druiz@example.net,+576065869341,Monterrey,Colombia,B2C,2023-11-27,2023-12-01,False,crm@retailtech.co,confidencial
+CLI-00088,Yolanda,Morales,frengifo@example.net,(+57) 601 149 77 70,Albán,Colombia,Premium,2024-08-13,2024-08-13,False,crm@retailtech.co,confidencial
+CLI-00089,Milena,Salazar,josezuluaga@example.net,+57 307 098 50 31,Hispania,Colombia,Inactivo,2024-10-12,2024-10-15,True,crm@retailtech.co,confidencial
+CLI-00090,Alexander,Sanabria,valeriarojas@example.net,324 116 10 01,Manizales,Argentina,B2C,2024-12-11,2024-12-14,True,crm@retailtech.co,confidencial
+CLI-00091,Carolina,Márquez,,760 80 05,San Carlos de Guaroa,Chile,Premium,2023-04-29,2023-05-02,True,crm@retailtech.co,confidencial
+CLI-00092,William,Arrieta,henrygallego@example.com,(+57)3275951464,Zona Bananera,Chile,B2B,2024-09-29,2024-10-02,True,crm@retailtech.co,confidencial
+CLI-00093,Mónica,Restrepo,ubeltran@example.com,57 303 681 15 64,Pana Pana,México,Inactivo,2023-05-05,2023-05-05,True,marketing@retailtech.co,confidencial
+CLI-00094,Lidia,Solano,luisgaitan@example.net,57 314 476 37 90,Olaya Herrera,Colombia,B2C,2023-08-19,2023-08-19,True,crm@retailtech.co,confidencial
+CLI-00095,Alejandra,Arévalo,ospinocristian@example.org,(+57) 317 280 60 30,Santiago,Colombia,Inactivo,2024-03-01,2024-03-04,True,marketing@retailtech.co,confidencial
+CLI-00096,Mario,Camargo,dazadaniel@example.net,(+57)3014759542,La Unión,Perú,Premium,2023-03-13,2023-03-15,True,crm@retailtech.co,confidencial
+CLI-00097,Luz,León,gonzalezdiana@example.net,605 302 48 78,Restrepo,Colombia,Inactivo,2024-08-24,2024-08-28,True,crm@retailtech.co,confidencial
+CLI-00098,Gabriela,Bohórquez,andresloaiza@example.com,018000924589,Hobo,Ecuador,Premium,2024-04-11,2024-04-13,True,crm@retailtech.co,confidencial
+CLI-00099,Tania,Molina,luzmora@example.com,+57 302 293 39 48,Silvia,Colombia,Inactivo,2024-04-29,2024-05-04,True,marketing@retailtech.co,confidencial
+CLI-00100,Brayan,Chaparro,jalfonso@example.net,573212746190,Floresta,Colombia,Inactivo,2023-05-10,2023-05-14,False,marketing@retailtech.co,confidencial
+CLI-00101,Felipe,Rojas,calderonelizabeth@example.org,6042537466,Guapotá,Ecuador,Premium,2023-05-28,2023-05-31,True,crm@retailtech.co,confidencial
+CLI-00102,Andrés,Valencia,ruizjohanna@example.net,+573157273886,Hacarí,Perú,Premium,2024-10-27,2024-10-27,True,crm@retailtech.co,confidencial
+CLI-00103,César,Pérez,ruthmejia@example.org,576075034666,Tibaná,Colombia,B2B,2024-07-08,2024-07-08,True,marketing@retailtech.co,confidencial
+CLI-00104,Amparo,Hernández,rojasaugusto@example.net,(+57) 306 512 22 34,Gama,Colombia,Premium,2024-10-10,2024-10-15,True,crm@retailtech.co,confidencial
+CLI-00105,Gloria,Muñoz,andrealeon@example.org,603 484 31 50,Providencia,Colombia,B2C,2024-01-03,2024-01-05,True,crm@retailtech.co,confidencial
+CLI-00106,Julieth,Gaitán,hrojas@example.org,+576011973083,Floresta,Argentina,B2C,2024-09-26,2024-10-01,True,marketing@retailtech.co,confidencial
+CLI-00107,Marta,Gómez,solanoadriana@example.com,57 608 112 17 16,Ebéjico,Colombia,B2B,2024-04-21,2024-04-23,True,crm@retailtech.co,confidencial
+CLI-00108,Julia,Ortiz,jose28@example.org,7189481,Matanza,Colombia,B2C,2024-12-07,2024-12-09,True,crm@retailtech.co,confidencial
+CLI-00109,María,Domínguez,glorialondono@example.com,(+57) 310 894 87 36,Gigante,Colombia,Inactivo,2024-08-11,2024-08-13,True,marketing@retailtech.co,confidencial
+CLI-00110,Concepción,Carvajal,jose33@example.net,(+57)3226586055,Paime,Argentina,B2C,2024-09-12,2024-09-17,True,marketing@retailtech.co,confidencial
+CLI-00111,Guillermo,Cortés,luisgomez@example.net,+57 324 855 75 32,Santa María,México,B2B,2024-09-27,2024-09-29,False,marketing@retailtech.co,confidencial
+CLI-00112,Antonio,Díaz,naguilar@example.net,57 325 600 44 29,Barbosa,Colombia,B2C,2023-11-13,2023-11-16,True,marketing@retailtech.co,confidencial
+CLI-00113,María,Cardona,davidfernandez@example.net,466 63 77,Cáqueza,Colombia,Premium,2023-05-16,2023-05-20,False,crm@retailtech.co,confidencial
+CLI-00114,Julia,Rodríguez,maritzajimenez@example.com,N/A,Pasca,Chile,Premium,2023-10-30,2023-11-04,True,crm@retailtech.co,confidencial
+CLI-00115,Stiven,Cáceres,carlosacosta@example.org,318 089 21 96,Piendamó - Tunía,Colombia,B2C,2024-07-24,2024-07-26,True,crm@retailtech.co,confidencial
+CLI-00116,Karen,Salcedo,lucyrincon@example.net,607 146 15 99,,Argentina,Premium,2024-08-21,2024-08-24,False,crm@retailtech.co,confidencial
+CLI-00117,Betty,Duque,gpalacios@example.org,573077683355,San Benito,México,B2B,2024-09-16,2024-09-17,True,marketing@retailtech.co,confidencial
+CLI-00118,María,Gutiérrez,vlara@example.com,+57 319 563 74 08,Albán,Colombia,Inactivo,2023-02-08,2023-02-10,True,crm@retailtech.co,confidencial
+CLI-00119,Virginia,Díaz,giraldoangela@example.com,(+57)6044502786,Guatavita,Perú,Premium,2024-08-24,2024-08-29,False,crm@retailtech.co,confidencial
+CLI-00120,Ángela,Sánchez,oquintero@example.net,57 608 970 72 67,San Benito Abad,Colombia,B2C,2023-02-03,2023-02-08,True,crm@retailtech.co,confidencial
+CLI-00121,Nicolás,Rodríguez,silvia43@example.net,57 313 605 49 30,Uribe,Ecuador,B2C,2023-03-04,2023-03-07,True,marketing@retailtech.co,confidencial
+CLI-00122,Germán,Sánchez,isabelrestrepo@example.com,N/A,Silvania,Colombia,B2C,2023-02-21,2023-02-23,True,marketing@retailtech.co,confidencial
+CLI-00123,Angélica,Rueda,zpatino@example.net,(+57) 326 780 77 01,Caldas,Chile,Premium,2023-08-27,2023-08-29,False,crm@retailtech.co,confidencial
+CLI-00124,Yohana,González,,01 8002 262 844,Agustín Codazzi,Colombia,B2B,2023-06-28,2023-06-28,True,marketing@retailtech.co,confidencial
+CLI-00125,Carlos,Ayala,diazerika@example.net,N/A,Rosas,Colombia,B2C,2023-09-29,2023-09-29,True,marketing@retailtech.co,confidencial
+CLI-00126,David,Ramírez,edithpardo@example.net,305 761 32 78,Guatapé,México,B2C,2024-04-07,2024-04-11,True,marketing@retailtech.co,confidencial
+CLI-00127,Natalia,Santos,rodriguezalvaro@example.org,+573084325993,Caucasia,Colombia,Premium,2023-03-04,2023-03-07,False,crm@retailtech.co,confidencial
+CLI-00128,Hernando,Meneses,bernalenrique@example.com,+573040770652,Tota,Colombia,B2C,2024-09-14,2024-09-15,False,crm@retailtech.co,confidencial
+CLI-00129,Camilo,Vélez,aldemar32@example.com,+57 307 409 67 49,Condoto,Colombia,B2B,2024-04-09,2024-04-13,True,marketing@retailtech.co,confidencial
+CLI-00130,Luz,Bermúdez,jean08@example.org,3085951032,Distracción,Colombia,Premium,2024-03-16,2024-03-19,True,crm@retailtech.co,confidencial
+CLI-00131,Carlos,Angulo,lorenagomez@example.org,N/A,Montería,Colombia,B2C,2024-11-12,2024-11-14,True,marketing@retailtech.co,confidencial
+CLI-00132,Fanny,Ramos,diazlina@example.com,312 502 21 41,Tuta,Colombia,B2B,2024-01-17,2024-01-18,True,crm@retailtech.co,confidencial
+CLI-00133,Margarita,Loaiza,dora03@example.com,57 304 262 54 90,Ocamonte,Colombia,B2B,2023-02-22,2023-02-24,True,marketing@retailtech.co,confidencial
+CLI-00134,Natalia,Castro,hugohernandez@example.com,(+57) 604 957 48 89,Aranzazu,Chile,B2C,2023-12-25,2023-12-29,False,marketing@retailtech.co,confidencial
+CLI-00135,Julio,Leal,velascojuan@example.com,(+57) 314 982 74 31,La Capilla,Colombia,Premium,2024-09-15,2024-09-20,True,marketing@retailtech.co,confidencial
+CLI-00136,Sandra,Martínez,jesus29@example.com,+57 306 450 47 49,Pajarito,Colombia,B2B,2023-07-05,2023-07-06,True,marketing@retailtech.co,confidencial
+CLI-00137,Juan,González,sflorez@example.com,3202187454,Floridablanca,Colombia,B2C,2024-01-21,2024-01-24,True,marketing@retailtech.co,confidencial
+CLI-00138,Johnny,Morales,cgarcia@example.com,7762902,Quebradanegra,Colombia,Premium,2023-06-09,2023-06-10,True,crm@retailtech.co,confidencial
+CLI-00139,Gloria,Gutiérrez,garciamaria@example.com,601 115 55 13,Guadalupe,Colombia,Premium,2023-10-07,2023-10-08,True,crm@retailtech.co,confidencial
+CLI-00140,Cecilia,Toro,,3061992154,La Ceja,Colombia,B2C,2023-02-16,2023-02-17,True,crm@retailtech.co,confidencial
+CLI-00141,Vanessa,Castaño,vergaraluis@example.net,(+57)6011387343,Belén,Colombia,B2C,2023-10-24,2023-10-26,True,crm@retailtech.co,confidencial
+CLI-00142,Jorge,Rojas,,6054001024,Tuta,Colombia,Premium,2023-03-15,2023-03-18,True,crm@retailtech.co,confidencial
+CLI-00143,Germán,Mosquera,,329 654 31 45,Santuario,Colombia,B2C,2024-12-27,2025-01-01,True,crm@retailtech.co,confidencial
+CLI-00144,Adiela,Medina,perezclaudia@example.org,3219084338,Argelia,Colombia,Premium,2023-04-01,2023-04-04,True,crm@retailtech.co,confidencial
+CLI-00145,Álvaro,Mosquera,lopezluis@example.net,+573026676318,Elías,Colombia,Premium,2023-08-15,2023-08-17,True,crm@retailtech.co,confidencial
+CLI-00146,Andrea,Prieto,luisvelasquez@example.com,3165279380,Frontino,Colombia,B2C,2024-10-22,2024-10-23,True,marketing@retailtech.co,confidencial
+CLI-00147,Sonia,Flórez,fernandomosquera@example.com,3028470320,Villanueva,Colombia,B2C,2024-10-05,2024-10-08,True,crm@retailtech.co,confidencial
+CLI-00148,Esther,Bohórquez,elkinperez@example.com,309 333 32 67,Solita,Colombia,B2C,2024-10-04,2024-10-06,True,marketing@retailtech.co,confidencial
+CLI-00149,Anderson,Ríos,bmunoz@example.com,N/A,Chíquiza,Colombia,B2C,2023-11-14,2023-11-17,False,crm@retailtech.co,confidencial
+CLI-00150,Álvaro,Arévalo,amparohernandez@example.com,(+57)3081096817,Suárez,Chile,B2B,2024-04-18,2024-04-22,True,crm@retailtech.co,confidencial
+CLI-00151,Graciela,Arias,rmolano@example.com,(+57) 326 080 12 71,San Gil,Argentina,B2B,2024-09-11,2024-09-14,False,marketing@retailtech.co,confidencial
+CLI-00152,Gustavo,Díaz,riascosgerman@example.net,(+57)3151469648,Yalí,Colombia,B2C,2024-05-31,2024-06-05,True,crm@retailtech.co,confidencial
+CLI-00153,Rubén,Burbano,kellylopez@example.org,(+57) 327 107 31 27,Cumaribo,Colombia,B2C,2023-10-17,2023-10-20,True,marketing@retailtech.co,confidencial
+CLI-00154,Manuel,Guevara,sebastiancastillo@example.com,4027208,Togüí,Colombia,B2C,2024-07-25,2024-07-30,True,marketing@retailtech.co,confidencial
+CLI-00155,Esteban,Córdoba,martaburbano@example.net,576073722305,Cartagena del Chairá,Colombia,B2C,2024-08-19,2024-08-24,True,marketing@retailtech.co,confidencial
+CLI-00156,Yulieth,González,rafael24@example.net,57 603 139 06 31,Santo Domingo,Chile,B2C,2023-11-14,2023-11-18,True,marketing@retailtech.co,confidencial
+CLI-00157,Norma,Mora,ccastro@example.net,+573161123966,Gualmatán,Colombia,B2C,2024-10-23,2024-10-28,False,crm@retailtech.co,confidencial
+CLI-00158,Socorro,Sánchez,bravoclara@example.net,315 903 02 42,Olaya,Colombia,Inactivo,2023-07-16,2023-07-17,True,marketing@retailtech.co,confidencial
+CLI-00159,Patricia,Valencia,juanjimenez@example.com,57 605 315 41 48,Curití,México,Premium,2024-11-08,2024-11-10,True,marketing@retailtech.co,confidencial
+CLI-00160,William,Hernández,laura73@example.net,(+57) 609 626 09 13,Entrerríos,México,B2C,2024-03-24,2024-03-24,True,crm@retailtech.co,confidencial
+CLI-00161,Wilson,Rojas,alfonso89@example.org,(+57) 318 371 49 10,Consacá,Ecuador,B2C,2023-08-28,2023-09-01,True,crm@retailtech.co,confidencial
+CLI-00162,Mauricio,Castillo,eduardogaleano@example.org,(+57) 604 844 34 93,El Tablón de Gómez,Colombia,Premium,2024-04-17,2024-04-19,True,crm@retailtech.co,confidencial
+CLI-00163,Liliana,Ríos,andrescano@example.org,797 91 49,Cicuco,Colombia,B2C,2023-02-23,2023-02-28,True,marketing@retailtech.co,confidencial
+CLI-00164,Guillermo,Zapata,carlos13@example.org,573119525840,Apulo,Colombia,B2C,2023-06-14,2023-06-16,True,crm@retailtech.co,confidencial
+CLI-00165,Jesús,Mena,martinezmatilde@example.org,+573174259978,San Zenón,Colombia,B2C,2023-01-28,2023-01-31,True,marketing@retailtech.co,confidencial
+CLI-00166,Javier,Garzón,laura93@example.org,573054195505,La Peña,Colombia,Premium,2024-10-27,2024-10-29,True,crm@retailtech.co,confidencial
+CLI-00167,Melba,Martínez,gomezjaime@example.net,(+57)3068309944,Balboa,Colombia,B2C,2024-04-04,2024-04-08,True,crm@retailtech.co,confidencial
+CLI-00168,Luis,Arango,enrique67@example.net,01 8009 963 353,Quípama,Colombia,B2C,2023-04-24,2023-04-26,True,crm@retailtech.co,confidencial
+CLI-00169,Andrea,Polo,alba69@example.net,(+57)3181996996,Quipile,Colombia,B2C,2024-09-03,2024-09-07,True,marketing@retailtech.co,confidencial
+CLI-00170,Sandra,Ortiz,armandomartinez@example.net,576049122838,Marsella,México,B2C,2024-08-07,2024-08-10,True,marketing@retailtech.co,confidencial
+CLI-00171,Cristian,Palacios,luis49@example.net,57 316 183 09 32,Nocaima,Colombia,B2C,2024-02-04,2024-02-07,True,marketing@retailtech.co,confidencial
+CLI-00172,Enrique,Cruz,elena84@example.net,607 948 77 45,Candelaria,Colombia,B2C,2024-11-03,2024-11-08,True,marketing@retailtech.co,confidencial
+CLI-00173,Lizeth,Gutiérrez,jalvarez@example.org,573244960411,Tutazá,Colombia,Inactivo,2024-12-02,2024-12-05,False,marketing@retailtech.co,confidencial
+CLI-00174,Jhonny,García,,313 086 60 81,Agrado,Colombia,B2C,2023-10-28,2023-10-29,False,crm@retailtech.co,confidencial
+CLI-00175,Nidia,Ruiz,wquiroz@example.com,327 530 54 33,"Bogotá, D.C.",Colombia,Premium,2023-09-17,2023-09-17,True,marketing@retailtech.co,confidencial
+CLI-00176,Hernán,Molina,vanessamartinez@example.com,(+57)3198468278,Roldanillo,México,Premium,2024-01-12,2024-01-15,True,crm@retailtech.co,confidencial
+CLI-00177,Carlos,Rodríguez,estefaniaparra@example.com,(+57) 314 133 71 76,Sasaima,Colombia,B2C,2024-01-12,2024-01-16,True,crm@retailtech.co,confidencial
+CLI-00178,Alfonso,Sánchez,germanruiz@example.com,01 8001 063 224,Filandia,México,B2C,2023-11-25,2023-11-25,True,crm@retailtech.co,confidencial
+CLI-00179,Margarita,Ruiz,eduardomoreno@example.org,+57 314 958 00 17,Vergara,Argentina,Premium,2024-04-02,2024-04-02,True,marketing@retailtech.co,confidencial
+CLI-00180,Amparo,Bedoya,raquelrodriguez@example.org,838 57 91,Juan de Acosta,Colombia,B2B,2023-03-18,2023-03-23,True,crm@retailtech.co,confidencial
+CLI-00181,Campo,Moreno,bmosquera@example.com,314 345 70 37,Sabanas de San Ángel,Chile,B2C,2023-02-05,2023-02-06,True,crm@retailtech.co,confidencial
+CLI-00182,Mauricio,Rojas,montenegrofrancisco@example.net,(+57) 324 376 65 92,La Esperanza,Colombia,B2C,2024-01-15,2024-01-17,True,marketing@retailtech.co,confidencial
+CLI-00183,María,Carrillo,uosorio@example.org,+57 326 385 04 20,Santa Rosa,Colombia,B2C,2023-01-27,2023-02-01,True,marketing@retailtech.co,confidencial
+CLI-00184,José,Pulido,alvarezoscar@example.org,292 80 79,Chinavita,Ecuador,B2B,2024-09-18,2024-09-20,True,crm@retailtech.co,confidencial
+CLI-00185,Eugenia,Álvarez,bastidasmaria@example.net,(+57)3220924484,Caicedonia,Ecuador,Inactivo,2023-03-31,2023-04-05,True,crm@retailtech.co,confidencial
+CLI-00186,Lucila,Rodríguez,sofiasanchez@example.com,3182499565,Charalá,México,Premium,2023-06-11,2023-06-16,False,marketing@retailtech.co,confidencial
+CLI-00187,Hugo,Palacio,martinezelvira@example.com,3283859276,Tarapacá,Colombia,B2C,2023-08-31,2023-09-03,True,marketing@retailtech.co,confidencial
+CLI-00188,Hermes,García,avelandia@example.org,(+57)3216213953,Bagadó,México,B2C,2023-03-09,2023-03-11,True,marketing@retailtech.co,confidencial
+CLI-00189,Daniel,Hernández,ruizedwar@example.com,(+57)3099972142,Regidor,Colombia,B2C,2023-11-21,2023-11-26,True,marketing@retailtech.co,confidencial
+CLI-00190,Eduardo,Reyes,rodriguezcamilo@example.org,(+57) 305 974 04 46,Norcasia,Perú,B2B,2023-05-13,2023-05-16,True,marketing@retailtech.co,confidencial
+CLI-00191,Josué,Mejía,aariza@example.org,+57 329 456 93 98,Briceño,Perú,Premium,2023-12-21,2023-12-25,True,crm@retailtech.co,confidencial
+CLI-00192,Liliana,Torres,jhonatan23@example.net,301 756 26 74,Guarne,México,B2C,2024-09-21,2024-09-25,True,crm@retailtech.co,confidencial
+CLI-00193,Alfonso,Triana,,990 81 16,El Peñol,Colombia,Premium,2024-07-31,2024-07-31,True,crm@retailtech.co,confidencial
+CLI-00194,Jonathan,Gutiérrez,medinajohan@example.net,+573042611301,Piamonte,Perú,B2C,2024-09-24,2024-09-29,True,crm@retailtech.co,confidencial
+CLI-00195,Luis,Agudelo,patricialondono@example.org,573188651575,Barrancabermeja,Colombia,B2C,2023-11-01,2023-11-04,True,crm@retailtech.co,confidencial
+CLI-00196,Jimena,Bermúdez,lopezpedro@example.net,3276143725,Falan,Colombia,Inactivo,2023-11-23,2023-11-28,True,marketing@retailtech.co,confidencial
+CLI-00197,Rosa,Gómez,hurtadodiana@example.org,(+57)3069376362,Sotaquirá,Colombia,B2C,2024-04-22,2024-04-22,True,marketing@retailtech.co,confidencial
+CLI-00198,Teresa,Rosero,umartinez@example.com,+573096089486,Gachetá,México,Inactivo,2023-06-13,2023-06-15,True,crm@retailtech.co,confidencial
+CLI-00199,Laura,Benítez,davidbecerra@example.org,57 319 852 44 23,San Bernardo,Colombia,B2C,2024-05-24,2024-05-24,True,crm@retailtech.co,confidencial
+CLI-00200,Yuliana,Pinto,manuelrivera@example.net,57 326 264 97 80,Quipile,México,Premium,2024-05-21,2024-05-25,True,crm@retailtech.co,confidencial
+CLI-00201,Tatiana,Alarcón,vcardona@example.org,576098498918,Tangua,Colombia,B2C,2024-01-10,2024-01-13,True,crm@retailtech.co,confidencial
+CLI-00202,Diana,Muñoz,miguelramirez@example.com,9209504,Puerto Guzmán,México,Premium,2024-07-17,2024-07-19,True,crm@retailtech.co,confidencial
+CLI-00203,Rosa,Rendón,ecortes@example.com,+57 325 444 01 54,Filadelfia,Colombia,Premium,2024-07-25,2024-07-27,True,crm@retailtech.co,confidencial
+CLI-00204,Adriana,Henao,monicalopez@example.net,57 601 157 32 97,Guavatá,México,B2C,2024-04-30,2024-05-04,True,crm@retailtech.co,confidencial
+CLI-00205,María,Duarte,tatiana25@example.com,3093416084,Palestina,Colombia,B2B,2024-08-30,2024-09-01,True,crm@retailtech.co,confidencial
+CLI-00206,Heriberto,Hernández,lozanodavid@example.net,3122095929,Anolaima,Colombia,Inactivo,2024-11-20,2024-11-20,True,crm@retailtech.co,confidencial
+CLI-00207,Viviana,Restrepo,trodriguez@example.net,+573288566933,Concordia,Chile,Premium,2023-09-29,2023-10-04,True,crm@retailtech.co,confidencial
+CLI-00208,Judith,Naranjo,carlos85@example.com,527 06 49,Palmar de Varela,Colombia,B2C,2023-06-01,2023-06-06,True,crm@retailtech.co,confidencial
+CLI-00209,Luis,Narváez,moralesandres@example.net,+573009560117,La Palma,Chile,B2C,2024-12-08,2024-12-09,True,marketing@retailtech.co,confidencial
+CLI-00210,María,Toro,blanca03@example.com,316 844 39 42,Gama,Ecuador,B2B,2024-06-15,2024-06-16,True,crm@retailtech.co,confidencial
+CLI-00211,María,Pedraza,castrojosefina@example.org,(+57)3098397025,Güicán de la Sierra,Perú,B2B,2024-07-13,2024-07-15,True,marketing@retailtech.co,confidencial
+CLI-00212,Manuel,Ceballos,andresmoreno@example.org,(+57)3144203408,La Paz,Argentina,B2C,2023-10-13,2023-10-17,True,crm@retailtech.co,confidencial
+CLI-00213,Sandra,Cabrera,vallejojose@example.org,(+57)3033105575,Cocorná,Argentina,B2C,2023-11-21,2023-11-24,True,crm@retailtech.co,confidencial
+CLI-00214,María,Rivera,onieto@example.com,3290113826,El Peñón,Chile,Inactivo,2024-02-09,2024-02-11,True,crm@retailtech.co,confidencial
+CLI-00215,Gina,Jaramillo,pbarrera@example.net,897 64 81,Acandí,Colombia,Premium,2024-11-02,2024-11-04,True,marketing@retailtech.co,confidencial
+CLI-00216,Inés,Zapata,fmarquez@example.com,(+57) 603 866 75 65,Dibulla,Colombia,B2B,2024-09-22,2024-09-27,True,crm@retailtech.co,confidencial
+CLI-00217,Oliva,Díaz,bmejia@example.net,+573027034830,Arboletes,México,B2C,2023-12-05,2023-12-10,True,crm@retailtech.co,confidencial
+CLI-00218,Pilar,Arévalo,jesus71@example.com,311 935 64 46,Arauca,Ecuador,B2C,2024-05-03,2024-05-08,True,marketing@retailtech.co,confidencial
+CLI-00219,José,Vanegas,williamariza@example.net,(+57)3204457614,San Luis de Gaceno,Argentina,Premium,2024-07-01,2024-07-06,True,marketing@retailtech.co,confidencial
+CLI-00220,Luis,Padilla,williamvasquez@example.com,606 110 56 24,Cocorná,México,B2C,2024-02-11,2024-02-14,True,marketing@retailtech.co,confidencial
+CLI-00221,Alexander,Pedraza,ernestovelez@example.com,018009767896,Santiago,México,B2C,2023-12-10,2023-12-12,True,crm@retailtech.co,confidencial
+CLI-00222,William,Ramírez,garciagloria@example.com,+57 321 762 41 65,,México,B2C,2023-07-17,2023-07-17,True,crm@retailtech.co,confidencial
+CLI-00223,Carlos,Gutiérrez,olgatorres@example.net,(+57)6075538916,La Cruz,Colombia,Premium,2024-08-04,2024-08-09,True,marketing@retailtech.co,confidencial
+CLI-00224,Andrés,Flórez,richardbustos@example.net,3037455702,,Ecuador,B2C,2024-02-15,2024-02-20,True,crm@retailtech.co,confidencial
+CLI-00225,Ana,Gómez,,(+57) 602 515 95 99,San Juan de Urabá,México,B2C,2023-10-01,2023-10-03,True,marketing@retailtech.co,confidencial
+CLI-00226,Pilar,Luna,yessica90@example.net,57 603 247 91 85,El Charco,México,B2C,2024-04-21,2024-04-23,True,crm@retailtech.co,confidencial
+CLI-00227,Mónica,Jaramillo,gmoreno@example.com,6081572121,Puerto Salgar,Argentina,B2C,2024-01-12,2024-01-16,True,crm@retailtech.co,confidencial
+CLI-00228,Mauricio,Bermúdez,sbejarano@example.net,+57 608 531 40 69,El Paso,Chile,Premium,2024-07-04,2024-07-09,True,crm@retailtech.co,confidencial
+CLI-00229,Yuli,Suárez,asantos@example.net,(+57)3193231220,La Macarena,Chile,B2C,2023-03-21,2023-03-25,True,crm@retailtech.co,confidencial
+CLI-00230,Marlon,Salazar,monicaosorio@example.org,(+57)6054944768,El Doncello,Colombia,B2C,2023-04-30,2023-05-05,True,crm@retailtech.co,confidencial
+CLI-00231,Eliana,Camacho,narias@example.net,3220365116,La Celia,Colombia,B2C,2024-04-12,2024-04-16,True,marketing@retailtech.co,confidencial
+CLI-00232,Silvia,Gaviria,wsanchez@example.org,3018041117,Granada,Colombia,B2C,2024-08-15,2024-08-15,True,crm@retailtech.co,confidencial
+CLI-00233,Cristian,Rodríguez,ardilamarcos@example.com,3044294842,Santa Rosa de Viterbo,Chile,B2C,2023-02-02,2023-02-04,True,crm@retailtech.co,confidencial
+CLI-00234,Deisy,Ospina,bravoivan@example.com,573165814014,Génova,México,B2C,2024-04-04,2024-04-07,True,marketing@retailtech.co,confidencial
+CLI-00235,Arturo,Díaz,angelarivera@example.org,N/A,,México,B2B,2024-07-04,2024-07-07,True,crm@retailtech.co,confidencial
+CLI-00236,María,Soto,teresaperez@example.com,3035689453,Quibdó,Colombia,Premium,2024-06-28,2024-07-01,True,marketing@retailtech.co,confidencial
+CLI-00237,Enrique,Jiménez,guevarajoel@example.net,N/A,Icononzo,Chile,B2C,2023-02-02,2023-02-07,True,marketing@retailtech.co,confidencial
+CLI-00238,Alberto,Hernández,luis34@example.net,N/A,San Luis,Perú,B2B,2024-04-02,2024-04-06,True,marketing@retailtech.co,confidencial
+CLI-00239,Jennifer,Cano,alejandraortiz@example.net,(+57) 300 528 52 01,Jardín,Colombia,Inactivo,2023-05-24,2023-05-28,True,crm@retailtech.co,confidencial
+CLI-00240,Gladys,Delgado,bbastidas@example.com,573156542813,Santa María,Ecuador,Premium,2023-08-31,2023-09-02,True,marketing@retailtech.co,confidencial
+CLI-00241,Elena,Mora,gutierrezjesus@example.org,576063210817,Ortega,Colombia,B2C,2024-10-03,2024-10-08,True,crm@retailtech.co,confidencial
+CLI-00242,Camilo,Quintero,martha52@example.com,57 601 281 30 66,Páramo,Colombia,B2C,2024-12-14,2024-12-17,True,marketing@retailtech.co,confidencial
+CLI-00243,Esperanza,Chacón,marco47@example.com,01 8008 642 048,Aquitania,Ecuador,B2B,2024-04-19,2024-04-19,True,marketing@retailtech.co,confidencial
+CLI-00244,Nancy,Pérez,rsanchez@example.net,3090154916,Francisco Pizarro,México,B2C,2024-04-05,2024-04-07,True,marketing@retailtech.co,confidencial
+CLI-00245,Esperanza,Rodríguez,mauriciolozano@example.com,300 148 46 22,Oiba,Colombia,Premium,2023-07-12,2023-07-16,False,marketing@retailtech.co,confidencial
+CLI-00246,Jorge,Figueroa,luis27@example.net,1155062,Riofrío,Colombia,Inactivo,2023-08-05,2023-08-06,True,marketing@retailtech.co,confidencial
+CLI-00247,Julián,Agudelo,angela45@example.com,573089581220,Chivatá,Chile,B2B,2024-02-11,2024-02-12,True,crm@retailtech.co,confidencial
+CLI-00248,Alexander,Aguirre,wmartinez@example.com,(+57)6066800681,Talaigua Nuevo,México,Premium,2024-04-22,2024-04-22,True,marketing@retailtech.co,confidencial
+CLI-00249,Javier,Sandoval,oortiz@example.net,576043588219,Montería,Colombia,Premium,2024-07-30,2024-07-31,True,marketing@retailtech.co,confidencial
+CLI-00250,Dora,Duque,uramirez@example.org,3636820,La Paz,Perú,B2C,2023-12-04,2023-12-05,True,crm@retailtech.co,confidencial
+CLI-00251,María,Arenas,dospino@example.com,576041046215,Mongua,Colombia,B2C,2024-10-19,2024-10-24,True,marketing@retailtech.co,confidencial
+CLI-00252,Nancy,Rojas,adrianaserna@example.net,N/A,,Colombia,Premium,2024-06-20,2024-06-20,True,marketing@retailtech.co,confidencial
+CLI-00253,Tatiana,Bermúdez,marthaacosta@example.org,N/A,Sipí,Colombia,B2C,2023-03-11,2023-03-16,False,crm@retailtech.co,confidencial
+CLI-00254,David,Luna,iris46@example.org,N/A,Chía,Colombia,B2C,2024-11-06,2024-11-09,True,crm@retailtech.co,confidencial
+CLI-00255,Cristian,Alzate,sergio08@example.com,(+57) 328 432 89 31,Agustín Codazzi,México,Premium,2023-01-18,2023-01-22,True,marketing@retailtech.co,confidencial
+CLI-00256,Inés,Padilla,contrerasana@example.net,(+57) 604 102 34 53,El Playón,Colombia,B2B,2023-09-04,2023-09-05,False,crm@retailtech.co,confidencial
+CLI-00257,Lucía,Guerrero,yarango@example.com,57 302 912 23 58,San Pablo,Colombia,Inactivo,2024-08-01,2024-08-02,False,marketing@retailtech.co,confidencial
+CLI-00258,Andrés,Palacios,arrietamargarita@example.net,N/A,Saravena,Colombia,B2C,2023-04-06,2023-04-09,True,crm@retailtech.co,confidencial
+CLI-00259,Wilson,Sánchez,pachecomargoth@example.net,576085096731,Santiago,Perú,B2B,2024-10-22,2024-10-24,True,crm@retailtech.co,confidencial
+CLI-00260,Jhony,Valencia,munozefrain@example.org,(+57) 325 485 93 23,Guadalupe,México,Inactivo,2023-10-05,2023-10-05,True,crm@retailtech.co,confidencial
+CLI-00261,Juan,Ocampo,svega@example.net,(+57)3204052289,Yarumal,Chile,B2B,2023-01-17,2023-01-18,True,marketing@retailtech.co,confidencial
+CLI-00262,Iván,Murcia,gloria02@example.net,(+57)3041835535,Belalcázar,Colombia,B2B,2024-08-03,2024-08-06,True,marketing@retailtech.co,confidencial
+CLI-00263,Catalina,Domínguez,oscar60@example.org,(+57)6015363701,Chíquiza,Colombia,Inactivo,2024-05-27,2024-06-01,True,crm@retailtech.co,confidencial
+CLI-00264,Adriana,González,karinapalacios@example.com,+57 603 661 40 87,Miraflores,Chile,B2B,2023-12-01,2023-12-01,True,marketing@retailtech.co,confidencial
+CLI-00265,Paola,Mosquera,raul68@example.com,(+57) 605 679 12 18,La Paz,Colombia,B2B,2024-11-27,2024-12-01,True,marketing@retailtech.co,confidencial
+CLI-00266,Carlos,Quintero,nidiagomez@example.org,01 8008 956 495,Pradera,Colombia,Premium,2024-01-25,2024-01-30,False,crm@retailtech.co,confidencial
+CLI-00267,Alexis,Cáceres,wvera@example.com,3007099996,Subachoque,Colombia,B2C,2024-01-04,2024-01-06,True,marketing@retailtech.co,confidencial
+CLI-00268,Julián,Arenas,baguirre@example.org,57 606 767 16 75,La Virginia,Colombia,B2C,2023-12-29,2024-01-02,True,marketing@retailtech.co,confidencial
+CLI-00269,Yuri,Gutiérrez,enrique05@example.org,302 306 22 64,Tierralta,Colombia,B2B,2024-07-26,2024-07-27,True,marketing@retailtech.co,confidencial
+CLI-00270,Estiven,González,ochoaalfonso@example.net,(+57)3258106187,Bituima,Colombia,B2C,2023-06-21,2023-06-24,True,crm@retailtech.co,confidencial
+CLI-00271,Fredy,Chaparro,sgiraldo@example.org,(+57) 603 572 62 03,El Bagre,Colombia,B2C,2024-08-31,2024-09-04,True,crm@retailtech.co,confidencial
+CLI-00272,Héctor,Gómez,elenaruiz@example.org,(+57)3102096178,San Martín,Chile,B2C,2024-03-26,2024-03-28,True,marketing@retailtech.co,confidencial
+CLI-00273,Lucía,Duque,susana86@example.org,+57 307 193 06 56,Güepsa,Colombia,B2C,2024-05-05,2024-05-07,False,marketing@retailtech.co,confidencial
+CLI-00274,Beatriz,Ochoa,nherrera@example.com,+57 328 778 88 98,Salazar,Chile,B2C,2023-11-30,2023-12-03,False,marketing@retailtech.co,confidencial
+CLI-00275,Dolores,Carrillo,diazesmeralda@example.org,503 46 64,El Carmen de Chucurí,México,B2C,2024-11-29,2024-12-03,True,marketing@retailtech.co,confidencial
+CLI-00276,Gloria,Moreno,dorisgonzalez@example.org,3160449118,Mirití - Paraná,México,B2C,2024-02-23,2024-02-28,True,marketing@retailtech.co,confidencial
+CLI-00277,Johana,Álvarez,aura15@example.com,57 327 868 06 99,Supatá,Colombia,B2C,2024-04-04,2024-04-08,True,crm@retailtech.co,confidencial
+CLI-00278,James,Parra,ivan84@example.net,+573017052338,Soplaviento,Argentina,B2B,2024-12-19,2024-12-23,True,marketing@retailtech.co,confidencial
+CLI-00279,Andrés,Velandia,andrea84@example.net,(+57)6036000547,Armenia,Colombia,B2B,2024-07-30,2024-08-04,True,crm@retailtech.co,confidencial
+CLI-00280,Óscar,Sánchez,alzateheidy@example.net,315 399 03 14,Chitagá,Colombia,Premium,2023-08-16,2023-08-20,True,marketing@retailtech.co,confidencial
+CLI-00281,Victoria,Contreras,parrasara@example.net,318 741 49 63,Guática,Colombia,B2C,2023-12-20,2023-12-20,True,crm@retailtech.co,confidencial
+CLI-00282,Cecilia,Medina,vargasolga@example.com,+573038920214,El Molino,Colombia,B2C,2023-11-16,2023-11-18,True,crm@retailtech.co,confidencial
+CLI-00283,Freddy,Bolaños,,606 804 02 58,Ipiales,México,B2C,2023-03-10,2023-03-12,True,marketing@retailtech.co,confidencial
+CLI-00284,Kevin,López,williamvelasquez@example.org,3040146198,Hato Corozal,Colombia,B2B,2024-06-12,2024-06-13,True,marketing@retailtech.co,confidencial
+CLI-00285,Luis,Díaz,yolanda31@example.org,57 323 929 26 51,Bello,Colombia,B2C,2024-10-17,2024-10-22,True,marketing@retailtech.co,confidencial
+CLI-00286,José,Arévalo,hchaparro@example.net,(+57)3295566078,Tununguá,Chile,Premium,2023-07-30,2023-08-01,True,crm@retailtech.co,confidencial
+CLI-00287,María,Pardo,mariasalazar@example.org,+57 324 207 67 80,Algarrobo,México,B2C,2023-07-21,2023-07-24,True,crm@retailtech.co,confidencial
+CLI-00288,Cristina,Torres,alvarezmabel@example.com,3291308820,Anzoátegui,Perú,B2C,2024-08-24,2024-08-24,True,marketing@retailtech.co,confidencial
+CLI-00289,Rafael,Rincón,xmolina@example.com,(+57) 300 991 07 65,La Capilla,Colombia,B2C,2024-11-19,2024-11-20,True,marketing@retailtech.co,confidencial
+CLI-00290,Alirio,Torres,lcardona@example.org,+573038565316,Támara,Colombia,B2C,2024-08-11,2024-08-14,True,marketing@retailtech.co,confidencial
+CLI-00291,Leonardo,Muñoz,ortizarmando@example.net,N/A,Girardota,Colombia,B2C,2024-05-16,2024-05-18,True,marketing@retailtech.co,confidencial
+CLI-00292,Dolores,Posada,felipeguzman@example.org,(+57)3188132085,El Rosario,Colombia,Inactivo,2023-07-19,2023-07-22,True,crm@retailtech.co,confidencial
+CLI-00293,Sandra,Pardo,juanvelez@example.net,N/A,San Juan de Betulia,Chile,B2B,2023-06-21,2023-06-21,True,crm@retailtech.co,confidencial
+CLI-00294,Olga,Giraldo,narvaezmariela@example.com,601 313 52 54,Venecia,Colombia,Premium,2024-08-02,2024-08-07,True,crm@retailtech.co,confidencial
+CLI-00295,José,Alzate,mmoreno@example.net,(+57)6055746796,Neira,Colombia,Premium,2024-07-09,2024-07-09,True,marketing@retailtech.co,confidencial
+CLI-00296,Claudia,Suárez,isabel37@example.com,3016384807,Guayabal de Síquima,Colombia,B2C,2023-11-01,2023-11-01,True,marketing@retailtech.co,confidencial
+CLI-00297,Faber,Velandia,gilmarodriguez@example.org,3032254417,Gómez Plata,Colombia,B2B,2023-08-03,2023-08-08,True,marketing@retailtech.co,confidencial
+CLI-00298,Juan,González,smolina@example.net,+57 312 191 49 56,Remolino,Colombia,B2B,2023-07-31,2023-07-31,True,crm@retailtech.co,confidencial
+CLI-00299,Farid,González,eduardo37@example.com,1990986,Belalcázar,Colombia,Premium,2024-06-10,2024-06-15,True,marketing@retailtech.co,confidencial
+CLI-00300,Enith,Ávila,catalina74@example.net,+57 319 371 13 12,San Andrés,México,B2C,2024-12-19,2024-12-20,True,crm@retailtech.co,confidencial

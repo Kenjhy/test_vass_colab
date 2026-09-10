@@ -1,0 +1,81 @@
+producto_id,nombre_producto,categoria,subcategoria,precio_venta,costo,stock_disponible,proveedor_id,nombre_proveedor,fecha_creacion,activo,data_owner,clasificacion_dato
+PROD-0001,Natación Qui 512,Deportes,Natación,742852.47,367073.46,47.0,PROV-009,"Gómez, Duque and Mendoza",2023-03-13,True,catalogo@retailtech.co,interno
+PROD-0002,Deportiva Totam 892,Ropa,Deportiva,1236500.81,760700.72,,PROV-014,Caro Group,2023-01-24,True,catalogo@retailtech.co,interno
+PROD-0003,Ciclismo Iure 539,Deportes,Ciclismo,1522918.39,681583.93,495.0,PROV-014,"Serrano, Guerrero and Cruz",2023-02-24,True,catalogo@retailtech.co,interno
+PROD-0004,Niños Dolorum 907,Ropa,Niños,540175.49,276826.57,248.0,PROV-006,Barrios-Vargas,2023-06-24,True,catalogo@retailtech.co,interno
+PROD-0005,Smartphones Soluta 978,Electrónica,Smartphones,1154567.08,504681.82,,PROV-003,Gallego-Gómez,2023-04-23,True,catalogo@retailtech.co,interno
+PROD-0006,Outdoor Magnam 262,Deportes,Outdoor,1897679.9,796598.31,154.0,PROV-014,"Flórez, Calderón and Pérez",2023-03-12,True,catalogo@retailtech.co,interno
+PROD-0007,Niños Voluptate 505,Ropa,Niños,155021.22,75112.22,26.0,PROV-011,Loaiza-Acosta,2023-03-20,True,catalogo@retailtech.co,interno
+PROD-0008,Limpieza Ut 588,Hogar,Limpieza,1116265.86,527833.33,,PROV-002,"Ruiz, Bustos and García",2023-02-03,True,catalogo@retailtech.co,interno
+PROD-0009,Importados Facilis 532,Alimentos,Importados,36481.18,17336.69,440.0,PROV-012,Salcedo-Ángel,2023-02-03,True,catalogo@retailtech.co,interno
+PROD-0010,Limpieza Cupiditate 406,Hogar,Limpieza,181104.21,80571.55,188.0,PROV-003,Cuéllar-Pérez,2023-04-08,True,catalogo@retailtech.co,interno
+PROD-0011,Dormitorio Sequi 550,Hogar,Dormitorio,123753.11,64045.17,84.0,PROV-006,Padilla-Rueda,2023-02-24,True,catalogo@retailtech.co,interno
+PROD-0012,Limpieza A 202,Hogar,Limpieza,881691.78,496700.05,459.0,PROV-003,"Lara, Cáceres and Pinto",2023-02-01,True,catalogo@retailtech.co,interno
+PROD-0013,Ciclismo Similique 760,Deportes,Ciclismo,1240373.1,770966.48,141.0,PROV-002,"González, Vargas and Rodríguez",2023-03-05,True,catalogo@retailtech.co,interno
+PROD-0014,Orgánicos Omnis 996,Alimentos,Orgánicos,1311821.55,625386.03,337.0,PROV-005,Narváez Ltd,2023-02-22,True,catalogo@retailtech.co,interno
+PROD-0015,Bebidas Ipsa 912,Alimentos,Bebidas,951784.59,600796.48,459.0,PROV-004,"García, Mora and Rico",2023-05-07,True,catalogo@retailtech.co,interno
+PROD-0016,Limpieza Nemo 469,Hogar,Limpieza,664360.12,514085.04,6.0,PROV-015,Pérez and Sons,2023-03-23,True,catalogo@retailtech.co,interno
+PROD-0017,Importados Illum 888,Alimentos,Importados,623582.81,298675.85,488.0,PROV-002,Álvarez Ltd,2023-01-05,True,catalogo@retailtech.co,interno
+PROD-0018,Tabletas Sequi 618,Electrónica,Tabletas,432931.88,180436.92,203.0,PROV-005,Morales Ltd,2023-06-10,True,catalogo@retailtech.co,interno
+PROD-0019,Natación Neque 256,Deportes,Natación,737798.67,564430.4,315.0,PROV-005,"Bedoya, Tovar and Pérez",2023-01-22,True,catalogo@retailtech.co,interno
+PROD-0020,Bebidas Quibusdam 749,Alimentos,Bebidas,1093142.43,779707.57,300.0,PROV-013,"Rivera, Gaitán and Mora",2023-06-16,True,catalogo@retailtech.co,interno
+PROD-0021,Tabletas Architecto 350,Electrónica,Tabletas,1207608.63,561953.95,29.0,PROV-002,García Group,2023-04-22,True,catalogo@retailtech.co,interno
+PROD-0022,Snacks Repudiandae 112,Alimentos,Snacks,550441.19,254339.15,61.0,PROV-012,"Hernández, Díaz and Agudelo",2023-02-05,True,catalogo@retailtech.co,interno
+PROD-0023,Limpieza Ratione 365,Hogar,Limpieza,1434148.69,762882.8,369.0,PROV-003,Guzmán-Zapata,2023-04-06,True,catalogo@retailtech.co,interno
+PROD-0024,Hombre Dolorem 636,Ropa,Hombre,766955.3,619429.93,139.0,PROV-002,Hernández-Rueda,2023-03-09,True,catalogo@retailtech.co,interno
+PROD-0025,Snacks Expedita 680,Alimentos,Snacks,749253.67,401956.58,439.0,PROV-003,"Gaitán, Osorio and Mercado",2023-04-05,True,catalogo@retailtech.co,interno
+PROD-0026,Smartphones Mollitia 983,Electrónica,Smartphones,354497.85,190439.49,,PROV-001,"Díaz, Sánchez and Ramírez",2023-03-04,True,catalogo@retailtech.co,interno
+PROD-0027,Deportiva Voluptate 666,Ropa,Deportiva,1055832.34,736978.97,18.0,PROV-013,Calderón-Moreno,2023-06-17,True,catalogo@retailtech.co,interno
+PROD-0028,Mujer Tenetur 685,Ropa,Mujer,723894.86,338842.71,39.0,PROV-006,Gaitán LLC,2023-01-31,True,catalogo@retailtech.co,interno
+PROD-0029,Laptops Officiis 510,Electrónica,Laptops,348505.64,186316.2,,PROV-002,García-Álvarez,2023-04-30,True,catalogo@retailtech.co,interno
+PROD-0030,Niños Vel 677,Ropa,Niños,140352.75,78244.56,149.0,PROV-013,Romero and Sons,2023-03-19,True,catalogo@retailtech.co,interno
+PROD-0031,Limpieza Corporis 300,Hogar,Limpieza,741330.7,300936.17,397.0,PROV-012,"Vélez, López and Mena",2023-05-20,True,catalogo@retailtech.co,interno
+PROD-0032,Dormitorio Ipsam 751,Hogar,Dormitorio,26062.48,15038.53,177.0,PROV-014,Pérez Ltd,2023-06-27,True,catalogo@retailtech.co,interno
+PROD-0033,Hombre Soluta 206,Ropa,Hombre,1029632.63,609554.03,157.0,PROV-004,Vargas LLC,2023-05-16,False,catalogo@retailtech.co,interno
+PROD-0034,Natación Quibusdam 195,Deportes,Natación,1895895.97,769336.2,143.0,PROV-001,Fajardo-Martínez,2023-03-01,True,catalogo@retailtech.co,interno
+PROD-0035,Importados Modi 694,Alimentos,Importados,949353.73,563669.06,43.0,PROV-002,"Andrade, Hurtado and Velásquez",2023-05-10,True,catalogo@retailtech.co,interno
+PROD-0036,Fitness Beatae 342,Deportes,Fitness,611787.17,477597.65,66.0,PROV-005,Bautista LLC,2023-03-08,True,catalogo@retailtech.co,interno
+PROD-0037,Ciclismo Tenetur 239,Deportes,Ciclismo,405887.25,261265.6,103.0,PROV-013,"Quiroga, Moreno and Muñoz",2023-05-30,True,catalogo@retailtech.co,interno
+PROD-0038,Laptops Pariatur 888,Electrónica,Laptops,587262.46,365157.73,183.0,PROV-004,Bonilla-García,2023-04-26,True,catalogo@retailtech.co,interno
+PROD-0039,Hombre Odio 813,Ropa,Hombre,183213.03,81432.5,360.0,PROV-010,"Guevara, Sierra and Díaz",2023-01-11,True,catalogo@retailtech.co,interno
+PROD-0040,Mujer Quidem 150,Ropa,Mujer,124948.73,82058.19,262.0,PROV-011,"Giraldo, González and Castillo",2023-03-18,True,catalogo@retailtech.co,interno
+PROD-0041,Cocina Expedita 355,Hogar,Cocina,1761329.31,762156.32,281.0,PROV-002,Monroy and Sons,2023-04-29,True,catalogo@retailtech.co,interno
+PROD-0042,Cocina Ipsam 302,Hogar,Cocina,44326.78,19445.97,66.0,PROV-014,"León, Bautista and Ordóñez",2023-04-13,True,catalogo@retailtech.co,interno
+PROD-0043,Tabletas Possimus 761,Electrónica,Tabletas,953349.99,734768.58,101.0,PROV-008,Loaiza LLC,2023-02-02,True,catalogo@retailtech.co,interno
+PROD-0044,Hombre Nostrum 543,Ropa,Hombre,78683.26,43730.09,293.0,PROV-014,Rivera Ltd,2023-04-12,True,catalogo@retailtech.co,interno
+PROD-0045,Natación Quos 556,Deportes,Natación,216718.86,146517.7,143.0,PROV-015,Miranda-Guerrero,2023-02-08,True,catalogo@retailtech.co,interno
+PROD-0046,Bebidas Temporibus 162,Alimentos,Bebidas,963746.17,521349.94,245.0,PROV-002,"López, Ruiz and Córdoba",2023-03-13,True,catalogo@retailtech.co,interno
+PROD-0047,Outdoor Eligendi 656,Deportes,Outdoor,1157752.12,517695.5,410.0,PROV-013,Villegas-Beltrán,2023-01-05,False,catalogo@retailtech.co,interno
+PROD-0048,Deportiva Sint 429,Ropa,Deportiva,805546.08,440169.07,257.0,PROV-007,Estrada PLC,2023-03-11,True,catalogo@retailtech.co,interno
+PROD-0049,Mujer Corporis 583,Ropa,Mujer,74716.05,33149.73,414.0,PROV-009,"Bonilla, Peña and Rueda",2023-04-02,True,catalogo@retailtech.co,interno
+PROD-0050,Dormitorio Odio 910,Hogar,Dormitorio,183017.2,89106.13,417.0,PROV-015,Henao LLC,2023-01-15,True,catalogo@retailtech.co,interno
+PROD-0051,Limpieza Animi 342,Hogar,Limpieza,665064.14,290295.66,90.0,PROV-010,Aguilar-Galvis,2023-03-23,True,catalogo@retailtech.co,interno
+PROD-0052,Hombre Unde 676,Ropa,Hombre,937516.61,565727.78,72.0,PROV-004,"Rendón, Vargas and Vega",2023-05-07,True,catalogo@retailtech.co,interno
+PROD-0053,Limpieza Nisi 639,Hogar,Limpieza,50909.74,39991.36,10.0,PROV-008,Benavides and Sons,2023-01-01,True,catalogo@retailtech.co,interno
+PROD-0054,Bebidas Animi 964,Alimentos,Bebidas,1063163.39,647091.88,410.0,PROV-014,González-Torres,2023-03-24,True,catalogo@retailtech.co,interno
+PROD-0055,Dormitorio Quidem 174,Hogar,Dormitorio,1430288.26,621749.53,491.0,PROV-006,Escobar-Páez,2023-06-30,False,catalogo@retailtech.co,interno
+PROD-0056,Fitness Aliquid 547,Deportes,Fitness,446760.97,275883.25,374.0,PROV-013,Silva Inc,2023-06-13,False,catalogo@retailtech.co,interno
+PROD-0057,Mujer Non 905,Ropa,Mujer,1097866.23,568674.51,314.0,PROV-006,Mendoza-Ortega,2023-02-27,True,catalogo@retailtech.co,interno
+PROD-0058,Limpieza Itaque 101,Hogar,Limpieza,528769.89,252390.35,373.0,PROV-012,"Vargas, Rodríguez and Díaz",2023-05-27,True,catalogo@retailtech.co,interno
+PROD-0059,Snacks Magni 326,Alimentos,Snacks,248256.24,153844.59,313.0,PROV-011,"Bonilla, Herrera and Mena",2023-05-25,True,catalogo@retailtech.co,interno
+PROD-0060,Outdoor Quis 271,Deportes,Outdoor,353421.97,271623.06,163.0,PROV-011,Mercado Inc,2023-01-23,True,catalogo@retailtech.co,interno
+PROD-0061,Deportiva Tenetur 362,Ropa,Deportiva,27982.94,19002.54,179.0,PROV-013,Romero-Rodríguez,2023-01-28,True,catalogo@retailtech.co,interno
+PROD-0062,Accesorios Ut 604,Electrónica,Accesorios,621753.99,356193.91,211.0,PROV-015,"Martínez, Uribe and Flórez",2023-04-07,True,catalogo@retailtech.co,interno
+PROD-0063,Fitness Eligendi 803,Deportes,Fitness,1479317.46,664757.51,388.0,PROV-004,"González, Ruiz and Pérez",2023-02-11,True,catalogo@retailtech.co,interno
+PROD-0064,Tabletas Necessitatibus 274,Electrónica,Tabletas,39813.09,25861.62,175.0,PROV-015,Duque-Rojas,2023-04-07,True,catalogo@retailtech.co,interno
+PROD-0065,Smartphones Laborum 131,Electrónica,Smartphones,687150.69,276980.96,360.0,PROV-007,"Gómez, Guzmán and Bolaños",2023-06-17,True,catalogo@retailtech.co,interno
+PROD-0066,Outdoor Nam 813,Deportes,Outdoor,85285.86,52309.04,209.0,PROV-009,Burbano-Ortiz,2023-05-19,True,catalogo@retailtech.co,interno
+PROD-0067,Niños Suscipit 602,Ropa,Niños,249950.21,197663.15,430.0,PROV-003,"Gómez, Romero and González",2023-01-14,True,catalogo@retailtech.co,interno
+PROD-0068,Fitness Repellendus 199,Deportes,Fitness,500101.76,242694.06,102.0,PROV-001,Díaz-Gómez,2023-02-22,True,catalogo@retailtech.co,interno
+PROD-0069,Hombre Optio 600,Ropa,Hombre,518625.17,384120.81,241.0,PROV-015,Suárez Ltd,2023-06-19,True,catalogo@retailtech.co,interno
+PROD-0070,Importados Illo 145,Alimentos,Importados,366909.96,156056.16,228.0,PROV-005,Cortés Inc,2023-04-23,True,catalogo@retailtech.co,interno
+PROD-0071,Decoración Sit 187,Hogar,Decoración,636447.85,455754.8,49.0,PROV-011,Yepes Group,2023-03-30,True,catalogo@retailtech.co,interno
+PROD-0072,Outdoor Dignissimos 648,Deportes,Outdoor,1025779.5,447345.51,214.0,PROV-011,"Forero, Bermúdez and Álvarez",2023-05-02,True,catalogo@retailtech.co,interno
+PROD-0073,Limpieza Ab 614,Hogar,Limpieza,421618.06,246093.17,17.0,PROV-010,"Zambrano, Arrieta and Molina",2023-05-13,True,catalogo@retailtech.co,interno
+PROD-0074,Bebidas Accusamus 316,Alimentos,Bebidas,229405.81,105022.68,85.0,PROV-013,Cuéllar-Vergara,2023-02-19,True,catalogo@retailtech.co,interno
+PROD-0075,Fitness Odio 251,Deportes,Fitness,1396457.74,790741.15,321.0,PROV-014,Delgado-Durán,2023-06-02,True,catalogo@retailtech.co,interno
+PROD-0076,Smartphones Eligendi 632,Electrónica,Smartphones,543460.5,316598.33,141.0,PROV-008,Perdomo Ltd,2023-01-04,True,catalogo@retailtech.co,interno
+PROD-0077,Importados Unde 876,Alimentos,Importados,137905.41,98889.89,298.0,PROV-002,Carrillo PLC,2023-01-28,True,catalogo@retailtech.co,interno
+PROD-0078,Tabletas Repudiandae 492,Electrónica,Tabletas,1629918.73,695305.46,135.0,PROV-011,"Meneses, Galvis and Londoño",2023-05-05,True,catalogo@retailtech.co,interno
+PROD-0079,Fitness Autem 810,Deportes,Fitness,251749.6,146037.79,348.0,PROV-007,Murillo PLC,2023-01-10,True,catalogo@retailtech.co,interno
+PROD-0080,Mujer Voluptatibus 120,Ropa,Mujer,88962.1,48939.87,190.0,PROV-006,"Buitrago, Vega and Palacios",2023-03-19,True,catalogo@retailtech.co,interno

@@ -1,0 +1,58 @@
+GUIA RAPIDA - PRUEBA TECNICA DE DATOS Y AGENTE
+
+Objetivo: revisar datos CSV, limpiarlos con criterio y construir un agente que responda ventas sin inventar ni exponer PII.
+
+ORDEN DE EJECUCION
+
+1. Instalar: pandas, duckdb, gdown, tabulate y google-genai.
+2. Descargar o cargar ./data/.
+3. Leer pedidos, detalle_pedidos, productos y clientes.
+4. Diagnosticar: tipos, nulos, duplicados, pais_envio y canal.
+5. Crear pedidos_limpio: fechas/importes tipados, categorias normalizadas, filas invalidas excluidas y pedido_id deduplicado.
+6. Registrar pedidos_limpio en DuckDB.
+7. Probar SQL.
+8. Introducir GEMINI_API_KEY con getpass y probar el agente.
+
+DIAGNOSTICO MINIMO
+
+print(pedidos.dtypes)
+print(pedidos.isna().sum())
+print(pedidos.pedido_id.duplicated().sum())
+print(pedidos.pais_envio.value_counts(dropna=False))
+print(pedidos.canal.value_counts(dropna=False))
+
+RESPUESTA TECNICA
+
+La tabla cruda no es confiable para agregaciones porque contiene duplicados, categorias inconsistentes y valores nulos. Limpio solo lo necesario, documento la regla de deduplicacion y no invento importes faltantes.
+
+REGLAS DEL AGENTE
+
+- Consultar pedidos_limpio para ventas y pedidos.
+- Ventas: SUM(total_neto).
+- Pedidos: COUNT(DISTINCT pedido_id).
+- Ultimo mes: ultimo mes calendario disponible, salvo que el usuario indique otro periodo.
+- Solo SELECT o WITH.
+- Limitar resultados a 50 filas.
+- Bloquear INSERT, UPDATE, DELETE, DROP y acceso a nombre, apellido, email o telefono.
+- Si no hay datos, responder "No hay datos para ese filtro".
+- Si SQL falla, informar el error sin inventar una respuesta.
+
+PREGUNTAS DE DEMOSTRACION
+
+¿Que pais genera mas ventas totales y cuanto vendio?
+¿Que canal vende mas?
+¿Cuantos pedidos fueron entregados?
+¿Cuales fueron las ventas del ultimo mes disponible?
+¿Hay datos para ventas en un pais inexistente?
+¿Puedes mostrar el email de un cliente? -> Rechazar por PII.
+
+FRASE DE CIERRE
+
+Los datos quedan listos para el ejercicio despues de normalizar dimensiones, tipar campos, excluir importes desconocidos y deduplicar pedidos. En produccion validaria la regla de duplicados, la causa de los nulos, la frescura, los permisos y el monitoreo.
+
+NO OLVIDAR
+
+- Nunca guardar la API key en el notebook, Git o documentos.
+- Ejecutar las celdas en orden.
+- Validar cada cifra con una consulta SQL.
+- Explicar supuestos y limitaciones antes de afirmar que el dato esta listo para produccion.

@@ -1,0 +1,92 @@
+DOCUMENTACION Y DIAGRAMA DE LA PRUEBA
+
+1. Objetivo
+
+Construir un flujo pequeño de analitica confiable para que el negocio consulte ventas en lenguaje natural. El flujo recibe archivos CSV, revisa su calidad, aplica una limpieza minima, consulta los datos con SQL y conecta un agente LLM que responde usando una herramienta controlada.
+
+2. Problema que resuelve
+
+Evita tomar decisiones con datos duplicados, categorias inconsistentes o importes invalidos. Tambien evita que el agente invente cifras o exponga datos personales de clientes.
+
+3. Explicacion por partes
+
+Parte 0 - Setup
+
+- Instalar pandas para manipulacion, DuckDB para consultas SQL, gdown para descargar datos y google-genai para el agente.
+- Descargar y extraer el ZIP en ./data/.
+- Leer pedidos, detalle_pedidos, productos y clientes.
+- Registrar las tablas en DuckDB.
+
+Parte A - Calidad y limpieza
+
+- Explorar tipos, nulos, duplicados y valores unicos de pais_envio y canal.
+- Detectar que pedido_id no es unico, que hay categorias con espacios/mayusculas y que existen total_neto nulos.
+- Convertir fechas e importes a tipos correctos.
+- Normalizar paises y canales.
+- Eliminar filas sin las dimensiones o el importe necesario.
+- Deduplicar pedido_id con una regla explicita y crear pedidos_limpio.
+- Verificar que las metricas se calculen sobre pedidos_limpio.
+
+Parte B - Agente LLM
+
+- Definir un system prompt con el esquema, las metricas y las reglas de seguridad.
+- Exponer ejecutar_sql como herramienta de function calling.
+- Permitir solo SELECT o WITH.
+- Bloquear operaciones de escritura y columnas PII como nombre, apellido, email y telefono.
+- Devolver SIN DATOS cuando no haya filas y ERROR SQL cuando falle la consulta.
+- Responder en espanol, explicar periodo y metrica, y no inventar resultados.
+- Usar GEMINI_API_KEY solo al ejecutar el agente; nunca escribirla en el notebook ni en documentacion.
+
+4. Tecnologias y motivo
+
+- Python: orquestacion del flujo.
+- pandas: lectura, perfiles y limpieza de CSV.
+- DuckDB: SQL local rapido sin levantar un servidor.
+- Google Gemini / google-genai: interpretacion de preguntas y function calling.
+- Jupyter o Google Colab: ejecucion interactiva y demostracion.
+- getpass o Secret Manager: ingreso seguro de la API key.
+
+5. Arquitectura
+
+```mermaid
+flowchart LR
+	A[CSV en data/] --> B[Python + pandas]
+	B --> C[Diagnostico de calidad]
+	C --> D[pedidos_limpio]
+	D --> E[DuckDB]
+	U[Pregunta de negocio] --> F[Agente Gemini]
+	F --> G[ejecutar_sql]
+	G --> E
+	E --> G
+	G --> F
+	F --> R[Respuesta con evidencia]
+```
+
+6. Decisiones que debo explicar
+
+- No agrego ventas sobre la tabla cruda porque los duplicados inflan los resultados.
+- Normalizo dimensiones antes de agrupar para no separar Colombia, COL y valores con espacios.
+- No imputo total_neto nulo sin una regla aprobada por el dueño del dato; lo excluyo y lo reporto.
+- Deduplico solo como solucion de prueba y dejo claro que en produccion debe definirse la fuente de verdad.
+- El agente consulta datos limpios y no tiene permiso para modificar tablas.
+- La respuesta del LLM no es evidencia: la cifra debe venir de DuckDB.
+
+7. Insumos necesarios
+
+- Notebook o entorno Python/Colab.
+- ZIP o carpeta data/ con los CSV.
+- Paquetes pandas, duckdb, gdown, tabulate y google-genai.
+- GEMINI_API_KEY para la Parte B.
+- Regla del negocio para duplicados, nulos y definicion de "ultimo mes".
+- En produccion: base de datos, control de acceso, secretos, logs, pruebas y monitoreo.
+
+8. Flujo de ejecucion
+
+1. Instalar dependencias.
+2. Descargar o cargar data/.
+3. Leer y perfilar las tablas.
+4. Limpiar y registrar pedidos_limpio.
+5. Probar SQL sin usar la API.
+6. Introducir la API key de forma segura.
+7. Ejecutar preguntas de negocio.
+8. Validar una cifra manualmente con SQL antes de presentarla.

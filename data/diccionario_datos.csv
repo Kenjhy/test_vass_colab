@@ -1,0 +1,52 @@
+tabla,columna,tipo_dato,descripcion,es_pii,data_owner,retencion_dias,clasificacion,constraint_tipo
+clientes,cliente_id,VARCHAR(10),Identificador único del cliente,No,crm@retailtech.co,1825,confidencial,PK
+clientes,nombre,VARCHAR(100),Nombre de pila del cliente,Sí,crm@retailtech.co,1825,confidencial,
+clientes,apellido,VARCHAR(100),Apellido del cliente,Sí,crm@retailtech.co,1825,confidencial,
+clientes,email,VARCHAR(200),Correo electrónico de contacto,Sí,crm@retailtech.co,1825,confidencial,
+clientes,telefono,VARCHAR(30),Teléfono de contacto,Sí,crm@retailtech.co,1825,confidencial,
+clientes,ciudad,VARCHAR(100),Ciudad de residencia,No,crm@retailtech.co,365,interno,
+clientes,pais,VARCHAR(50),País de residencia,No,crm@retailtech.co,365,interno,
+clientes,segmento,VARCHAR(20),Segmento comercial del cliente,No,marketing@retailtech.co,365,interno,
+clientes,fecha_registro,DATE,Fecha en que el cliente se registró,No,crm@retailtech.co,3650,interno,
+clientes,fecha_consentimiento,DATE,Fecha de aceptación de política de datos (GDPR/Ley 1581),No,legal@retailtech.co,3650,confidencial,
+clientes,activo,BOOLEAN,Indica si el cliente está activo,No,crm@retailtech.co,365,interno,
+clientes,data_owner,VARCHAR(100),Correo del responsable del dato,No,governance@retailtech.co,3650,interno,
+clientes,clasificacion_dato,VARCHAR(20),Nivel de clasificación de seguridad,No,governance@retailtech.co,3650,interno,
+productos,producto_id,VARCHAR(10),Identificador único del producto,No,catalogo@retailtech.co,3650,interno,PK
+productos,nombre_producto,VARCHAR(200),Nombre comercial del producto,No,catalogo@retailtech.co,3650,público,
+productos,categoria,VARCHAR(50),Categoría principal del producto,No,catalogo@retailtech.co,3650,público,
+productos,subcategoria,VARCHAR(50),Subcategoría del producto,No,catalogo@retailtech.co,3650,público,
+productos,precio_venta,"DECIMAL(12,2)",Precio de venta al público (COP),No,catalogo@retailtech.co,365,interno,
+productos,costo,"DECIMAL(12,2)",Costo de adquisición (COP),No,finanzas@retailtech.co,365,confidencial,
+productos,stock_disponible,INTEGER,Unidades disponibles en inventario,No,logistica@retailtech.co,90,interno,
+productos,proveedor_id,VARCHAR(10),ID del proveedor,No,compras@retailtech.co,1825,interno,FK
+productos,nombre_proveedor,VARCHAR(200),Nombre del proveedor,No,compras@retailtech.co,1825,confidencial,
+productos,fecha_creacion,DATE,Fecha de alta del producto,No,catalogo@retailtech.co,3650,interno,
+productos,activo,BOOLEAN,Indica si el producto está disponible,No,catalogo@retailtech.co,365,interno,
+pedidos,pedido_id,VARCHAR(12),Identificador único del pedido,No,ventas@retailtech.co,1825,interno,PK
+pedidos,cliente_id,VARCHAR(10),FK al cliente que realizó el pedido,No,ventas@retailtech.co,1825,interno,FK
+pedidos,fecha_pedido,DATE,Fecha en que se realizó el pedido,No,ventas@retailtech.co,1825,interno,
+pedidos,fecha_entrega,DATE,Fecha de entrega efectiva (NULL si no entregado),No,logistica@retailtech.co,1825,interno,
+pedidos,estado,VARCHAR(20),Estado actual del pedido,No,ventas@retailtech.co,365,interno,
+pedidos,canal,VARCHAR(20),Canal de venta,No,ventas@retailtech.co,1825,interno,
+pedidos,metodo_pago,VARCHAR(30),Método de pago utilizado,No,finanzas@retailtech.co,1825,confidencial,
+pedidos,pais_envio,VARCHAR(50),País destino del envío,No,logistica@retailtech.co,1825,interno,
+pedidos,total_bruto,"DECIMAL(14,2)",Total del pedido antes de descuentos (COP),No,finanzas@retailtech.co,1825,confidencial,
+pedidos,descuento_pct,"DECIMAL(5,2)",Porcentaje de descuento aplicado,No,ventas@retailtech.co,1825,interno,
+pedidos,total_neto,"DECIMAL(14,2)",Total final pagado (COP),No,finanzas@retailtech.co,1825,confidencial,
+detalle_pedidos,item_id,VARCHAR(13),Identificador único de línea de pedido,No,ventas@retailtech.co,1825,interno,PK
+detalle_pedidos,pedido_id,VARCHAR(12),FK al pedido,No,ventas@retailtech.co,1825,interno,FK
+detalle_pedidos,producto_id,VARCHAR(10),FK al producto,No,ventas@retailtech.co,1825,interno,FK
+detalle_pedidos,cantidad,INTEGER,Unidades pedidas,No,ventas@retailtech.co,1825,interno,
+detalle_pedidos,precio_unitario,"DECIMAL(12,2)",Precio unitario al momento de la compra (COP),No,ventas@retailtech.co,1825,confidencial,
+detalle_pedidos,descuento_pct,"DECIMAL(5,2)",Descuento por ítem,No,ventas@retailtech.co,1825,interno,
+detalle_pedidos,subtotal,"DECIMAL(14,2)",Subtotal de la línea (COP),No,ventas@retailtech.co,1825,confidencial,
+eventos,evento_id,VARCHAR(12),Identificador único del evento digital,No,analytics@retailtech.co,365,público,PK
+eventos,cliente_id,VARCHAR(10),FK al cliente (NULL si anónimo),No,analytics@retailtech.co,365,confidencial,FK
+eventos,session_id,VARCHAR(14),Identificador de sesión web/app,No,analytics@retailtech.co,90,interno,
+eventos,tipo_evento,VARCHAR(30),Tipo de interacción digital,No,analytics@retailtech.co,365,público,
+eventos,timestamp,TIMESTAMP,Fecha y hora exacta del evento,No,analytics@retailtech.co,365,interno,
+eventos,producto_id,VARCHAR(10),FK al producto (si aplica),No,analytics@retailtech.co,365,público,FK
+eventos,dispositivo,VARCHAR(20),Tipo de dispositivo del usuario,No,analytics@retailtech.co,365,público,
+eventos,pais,VARCHAR(50),País del evento,No,analytics@retailtech.co,365,público,
+eventos,duracion_seg,INTEGER,Duración de la interacción en segundos,No,analytics@retailtech.co,90,público,

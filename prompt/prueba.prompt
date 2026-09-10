@@ -1,0 +1,18 @@
+en esecencia tengo esta prueba tecnica y necesito resolverla 
+
+
+y en esencia este es el caso
+
+El banco tiene mucha data de forma abrupta,  en la prueba habra unos datos, exportemos
+y verifiquemos, y caundo estemos tranquilos que si esta bien los pasamos a una base de datos
+hacemos un agente que va a resolver pregunta se negocio como cuales fueron las ventas del ultimo mes
+
+el agente nos tiene que ayduar con las preguntas 
+
+ellos vaa compartirnos el api key
+
+necesito que me indiques que ajsutaste y porque.
+
+que insumos hacen falta si hacen falta.
+
+ GEMINI_API_KEY = <configurar mediante una variable de entorno segura>
