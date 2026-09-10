@@ -1,0 +1,17 @@
+Tipos de Datos: Estructurados, no estructurados y semiestructurados.
+Chunking (Fragmentación)
+Embeddings
+Métricas de Similitud Vectorial 
+Bases de Datos Vectoriales
+RAG
+Fine-Tuning
+Agentes -> Percepción, memoria (corto y largo plazo), razonamiento y ejecución de herramientas (Tools / Function Calling).
+Parametros de agentes (temperatura, top p)
+Mecanismos de Control y Enrutamiento de Agentes: -> Flujos Grafo/Estado
+Human in the loop
+
+También todo el tema de seguridad
+Inyección de prompts, guardrails
+Cómo lo pondrían en producción, kubernetes o cloud functions/AWS Lambdas/Azure functions
+ 
+ 

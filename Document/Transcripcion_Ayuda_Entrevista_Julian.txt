@@ -1,0 +1,22 @@
+Listo, a ver te cuento más o menos lo que yo me acuerdo en el caso que me pusieron a mí. 
+El caso que me pusieron a mí era, ellos tienen un call center que atiende alrededor de mil casos al mes, por decirte un valor. 
+La idea de este call center es que la gente por lo general llama a preguntar por productos o servicios que tiene el banco. 
+Todos estos productos y servicios que tiene el banco, pues ellos los tienen en PDF, los tienen en Excel, 
+los tienen en como diferentes documentos o manuales y demás. Que tienen todos los productos que ellos manejan. Entonces la pregunta era ellos, 
+¿qué hacer en ese caso? Pues no quieren que una persona esté todo el tiempo ahí esperando a la gente hablando con una persona. 
+O que sea por ejemplo esos flujos normales que hay hoy en día que dicen, seleccione un número y seleccione el otro. 
+Entonces ellos quieren que eso sea más automático. Entonces digamos yo propuse pues que uno podía ser un agente y cogía la información que ellos tenían. 
+Todos los datos que ellos tenían sobre los productos que ellos manejan. Y eso se pasaba a un RAG, se hacía todo el proceso de Chunking, se hacía el embedding, 
+se metía a la base de datos vectorial. Y después uno conectaba a la gente a esa base de datos vectorial para que la gente tuviera esa información. 
+Digamos que yo fui planteando como ese tema allí. Más adelante me presentaron más. Más problemas frente a esto.
+ Me decían, bueno, que qué pasaba por ejemplo si en esas peticiones que hacía la gente, por ejemplo, por X o y motivo, 
+ venían datos personales o los documentos tenían datos personales. Que qué se podía hacer, que cómo hacía yo para mitigar de que esos datos no salieran de allí. 
+ Entonces pues ahí es donde te digo que ellos decían que uno puede, que traer los datos con la inteligencia artificial con el agente. 
+ Y lo que hace uno es que antes de mostrárselos al usuario, pues todo lo que sean datos personales, uno los borra, los elimina. O los anonimiza. 
+ Pues les pone XXXX, cuenta XXXX, terminada en 5010. Por decirte así. Me pusieron esos casos, me preguntaron 
+ por qué hacer RAG o por qué hacer Fine-Tuning y cuál es la diferencia. Y por qué hacerlos o no hacerlos juntos. 
+ Y eso también me preguntaron sobre el tema de... Del Human in the loop. Yo diría no, pues aprobarlos. Para qué caso usar human in the loop o para qué caso no. 
+ Y por último... Y a lo último es también como el tema de seguridad, cómo manejar la seguridad de la gente. Para que no le hagan prop injection. 
+ Para tener guardrails. Para que se comporte de cierta forma. Todo ese tema de los parámetros de los agentes, de temperatura y todo eso. 
+ Para que sea más determinista, más creativo. Pues como que yo fui diciendo todas esas cositas y yo vi que el man que me entrevistaba 
+ pues como que quedaba contento con las respuestas. Entonces como que uno entre más específico sea de cómo hacer las cosas, mucho mejor. 
