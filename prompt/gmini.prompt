@@ -1,0 +1,9 @@
+Resuelve completa esta prueba técnica: inspecciona el notebook y los datos, implementa la carga, limpieza, validaciones, consultas SQL y agente Gemini, ejecuta y corrige todo hasta que funcione al 100%.
+
+Por cada corrección de datos (duplicados eliminados, categorías normalizadas, nulos rellenados), indica:
+1. Columna y fila(s) exactas afectadas
+2. Valor original problemático
+3. Por qué se consideró un error
+4. Línea de código que lo resolvió
+
+Sé directo.

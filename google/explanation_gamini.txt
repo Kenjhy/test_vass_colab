@@ -1,0 +1,21 @@
+1. Resumen (Por qué y para qué) Se resolvió estandarizando strings, eliminando duplicados e imputando nulos para garantizar precisión en SQL, y se configuró un agente LLM con function calling y reglas estrictas de privacidad para traducir lenguaje natural a datos fiables.
+
+2. Diagrama de Flujo Ingesta CSV ➔ Análisis Pandas ➔ Limpieza (Formatos/Nulos/Duplicados) ➔ Registro DuckDB ➔ Prompt & Tool Setup ➔ Consulta LLM
+
+3. Detalle Exacto de Limpieza
+
+Fuente: DataFrame pedidos.
+Dato anómalo: pais_envio ('COL', ' colombia '), canal ('Tienda_Fisica', 'tienda fisica'), pedido_id (No únicos), total_neto (51 nulos).
+Por qué se requirió ajuste: DuckDB agruparía erróneamente 'COL' y 'Colombia' como países distintos, duplicaría ventas por los IDs repetidos y arrojaría sumas incorrectas por los nulos.
+Líneas exactas que lo resolvieron: pedidos_limpio['pais_envio'] = pedidos_limpio['pais_envio'].str.strip().str.title().replace({'Col': 'Colombia'}) pedidos_limpio = pedidos_limpio.drop_duplicates(subset=['pedido_id']) pedidos_limpio['total_neto'] = pedidos_limpio['total_neto'].fillna(pedidos_limpio['total_bruto'] * (1 - pedidos_limpio['descuento_pct']))
+He aplicado las correcciones en el notebook. Ejecúta
+
+
+
+fase 2
+
+He habilitado la celda de prueba final. Ejecútala para ver cómo el agente responde a las preguntas de negocio en lenguaje natural interactuando con DuckDB y respetando las reglas de privacidad y anti-alucinación. Si todo funciona correctamente, la prueba estará resuelta al 100%.
+
+He configurado todas las celdas para la prueba: carga de datos, limpieza, prompt del sistema, agente con function calling y preguntas de prueba. Ejecuta la ultima celda para verificar el funcionamiento del agente. Si hay errores tras la ejecucion, estare listo para corregirlos. Todo el entorno esta preparado al 100%.
+
+He configurado todas las celdas para la prueba: carga de datos, limpieza de anomalías, prompt del sistema con reglas de privacidad/anti-alucinación, el agente con llamadas a función (function calling) y las preguntas de prueba

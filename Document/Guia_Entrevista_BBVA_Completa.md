@@ -56,7 +56,7 @@ flowchart TD
 ## 1.b Sub-diagrama — bloque de indexación (pasos 1 a 7)
 
 ```mermaid
-flowchart LR
+flowchart TD
   A["PDF escaneado"] --> OCR["OCR"]
   B["PDF nativo / Word"] --> PAR["Parser de layout"]
   C["Excel / CSV"] --> TAB["Extractor de tablas"]
@@ -119,7 +119,7 @@ flowchart TD
 ## 1.e Sub-diagrama — superficie de seguridad
 
 ```mermaid
-flowchart LR
+flowchart TD
   U["Cliente"] -->|"injection DIRECTA"| G9["Paso 9 - Guardrail de entrada"]
   DOC["Documento envenenado en la base"] -->|"injection INDIRECTA"| R12["Paso 12 - Retrieval"]
   G9 --> AG["Paso 10 - Agente"]
@@ -137,7 +137,7 @@ flowchart LR
 ## 1.f Diagrama de nubes — carriles paralelos
 
 ```mermaid
-flowchart TD
+flowchart LR
   S1["Paso 1-2: almacenamiento + parsing/OCR"]
   S3["Paso 3: deteccion de PII"]
   S5["Paso 5: embeddings"]
