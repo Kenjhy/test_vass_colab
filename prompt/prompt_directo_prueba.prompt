@@ -1,2 +1,6 @@
-Resuelve completa esta prueba técnica: inspecciona el notebook y los datos, implementa la carga, limpieza, validaciones, consultas SQL y agente Gemini con protección anti-alucinación y PII; ejecuta y corrige todo hasta que funcione.
-Trabaja con cambios mínimos, explícame brevemente las decisiones y los insumos faltantes, y solo hazme preguntas si existe un bloqueo real que impida continuar.
+Resuelve completa esta prueba técnica: inspecciona el notebook y los datos, implementa la carga, limpieza, validaciones, consultas SQL y agente Gemini, ejecuta y corrige todo hasta que funcione al 100%.
+Trabaja con cambios mínimos, explícame brevemente las decisiones y los insumos faltantes, 
+y solo hazme preguntas si existe un bloqueo real que impida continuar.
+Usa un entorno virtual
+En un documento aparte indicame que se resolvio porque y apra que no mas de 3 renglones, un diagrama de flujo, y tambien explicame el lugar exacto o fuente y dato exacto que se analizo y estaba mal y que requirio limpiza (del proque se llego a la conclusion de que necesitaba ajuste) y agrega linea exacta que lo resolvio
+se directo
